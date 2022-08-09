@@ -1,0 +1,47 @@
+.judul {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI';
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+form {
+    margin: 40px auto;
+    width: 600px;
+    padding: 10px auto;
+}
+form div {
+    margin-top: 20px;
+}
+form label {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+}
+form input {
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+form select {
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+form textarea {
+    width: 100%;
+    height: 95px;
+    resize: none;
+}
+form button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+    margin-top: 20px;
+    margin-left: 495px;
+    width: 110px;
+    height: 40px;
+    cursor: pointer;
+}

@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    background-color: rgb(228, 228, 228);
+}
+nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 9vh;
+}
+.navbar-top-left {
+    display: flex;
+    padding-top: 1px;
+    flex: 50%;
+    align-items: center;
+}
+.navbar-top-left img {
+    padding-left: 87px;
+    width: 60px;
+    height: 40px;
+}
+.navbar-top-left li {
+    display: inline; /* untuk menghilangkan tanda unordered listnya*/
+}
+.navbar-top-left ul li a {
+    text-decoration: none;
+    font-size: 20px; 
+    font-family: 'Segoe UI';
+    color: black;
+    background: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 30px;
+}
+.navbar-top-right {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 86px;
+}
+.navbar-top-right a {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: black;
+    padding: 5px 20px 8px 20px;
+    border-radius: 10px;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+}
+.container {
+    display: flex;
+    background: rgb(216, 216, 216);
+    height: 91vh;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    display: flex;
+    flex: 50%;
+}
+.skill-container1 {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    padding-right: 90px;
+}
+.skill-container2 {
+    width: 50%;
+}
+.kanan-kiri {
+    display: flex;
+}
+.favicon a i {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+}
